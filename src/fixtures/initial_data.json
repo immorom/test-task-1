@@ -1,0 +1,202 @@
+[
+{
+    "model": "cash_flow.status",
+    "pk": 1,
+    "fields": {
+        "name": "Бизнес"
+    }
+},
+{
+    "model": "cash_flow.status",
+    "pk": 2,
+    "fields": {
+        "name": "Личное"
+    }
+},
+{
+    "model": "cash_flow.status",
+    "pk": 3,
+    "fields": {
+        "name": "Налог"
+    }
+},
+{
+    "model": "cash_flow.status",
+    "pk": 4,
+    "fields": {
+        "name": "Данный список должен имет"
+    }
+},
+{
+    "model": "cash_flow.operationtype",
+    "pk": 1,
+    "fields": {
+        "name": "Поп(а)лнение"
+    }
+},
+{
+    "model": "cash_flow.operationtype",
+    "pk": 2,
+    "fields": {
+        "name": "Спис(ь)ание"
+    }
+},
+{
+    "model": "cash_flow.operationtype",
+    "pk": 3,
+    "fields": {
+        "name": "даный список длжен имет"
+    }
+},
+{
+    "model": "cash_flow.category",
+    "pk": 1,
+    "fields": {
+        "operationType": 1,
+        "name": "Инфраструктура"
+    }
+},
+{
+    "model": "cash_flow.category",
+    "pk": 2,
+    "fields": {
+        "operationType": 1,
+        "name": "Ультрафиолетоструктура"
+    }
+},
+{
+    "model": "cash_flow.category",
+    "pk": 3,
+    "fields": {
+        "operationType": 2,
+        "name": "Маркетинг"
+    }
+},
+{
+    "model": "cash_flow.category",
+    "pk": 4,
+    "fields": {
+        "operationType": 2,
+        "name": "Магазининг"
+    }
+},
+{
+    "model": "cash_flow.category",
+    "pk": 5,
+    "fields": {
+        "operationType": 3,
+        "name": "двнй списк ллжен имт"
+    }
+},
+{
+    "model": "cash_flow.subcategory",
+    "pk": 1,
+    "fields": {
+        "category": 1,
+        "name": "VPS"
+    }
+},
+{
+    "model": "cash_flow.subcategory",
+    "pk": 2,
+    "fields": {
+        "category": 1,
+        "name": "Proxy"
+    }
+},
+{
+    "model": "cash_flow.subcategory",
+    "pk": 3,
+    "fields": {
+        "category": 2,
+        "name": "МЗЫ"
+    }
+},
+{
+    "model": "cash_flow.subcategory",
+    "pk": 4,
+    "fields": {
+        "category": 2,
+        "name": "Зкщчн"
+    }
+},
+{
+    "model": "cash_flow.subcategory",
+    "pk": 5,
+    "fields": {
+        "category": 3,
+        "name": "Fartpost"
+    }
+},
+{
+    "model": "cash_flow.subcategory",
+    "pk": 6,
+    "fields": {
+        "category": 3,
+        "name": "Avito"
+    }
+},
+{
+    "model": "cash_flow.subcategory",
+    "pk": 7,
+    "fields": {
+        "category": 4,
+        "name": "Closepost"
+    }
+},
+{
+    "model": "cash_flow.subcategory",
+    "pk": 8,
+    "fields": {
+        "category": 4,
+        "name": "Alik"
+    }
+},
+{
+    "model": "cash_flow.subcategory",
+    "pk": 9,
+    "fields": {
+        "category": 5,
+        "name": "дный сипмк должн иемт"
+    }
+},
+{
+    "model": "cash_flow.transaction",
+    "pk": 1,
+    "fields": {
+        "status": 2,
+        "operationType": 1,
+        "category": 1,
+        "subcategory": 1,
+        "amount": "1200.00",
+        "date": "2026-06-30",
+        "comment": "aweugh"
+    }
+},
+{
+    "model": "cash_flow.transaction",
+    "pk": 2,
+    "fields": {
+        "status": 1,
+        "operationType": 1,
+        "category": 1,
+        "subcategory": 1,
+        "amount": "1200.00",
+        "date": "2026-06-30",
+        "comment": "awooga"
+    }
+},
+{
+    "model": "cash_flow.transaction",
+    "pk": 5,
+    "fields": {
+        "status": 1,
+        "operationType": 1,
+        "category": 2,
+        "subcategory": 4,
+        "amount": "3456.00",
+        "date": "2026-06-29",
+        "comment": ""
+    }
+}
+]
